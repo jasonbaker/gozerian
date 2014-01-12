@@ -1,0 +1,15 @@
+application: s~ng-blog
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+  - url: /static
+    static_dir: static
+    application_readable: true
+  - url: /post-templates
+    static_dir: post-templates
+    expiration: 1h
+  - url: /.*
+    script: main.app

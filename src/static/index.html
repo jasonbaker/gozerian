@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
+    <script src="//code.angularjs.org/1.2.8/angular-route.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="/static/maincontroller.js"></script>
+    <link rel="stylesheet" href="/static/main.css">
+  </head>
+  <body ng-app="ngblog.index" class="container">
+    <nav id="header" class="navbar navbar-default" role="navigation">
+      <a class="navbar-brand">ng-blog</a>
+    </nav>
+    <div class="row">
+      <div class="col-md-3">
+        <div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+          <ngblog-list>
+            <ngblog-link post-id="hello">Hello</ngblog-link>
+          </ngblog-list>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div ng-view></div>
+      </div>
+    </div>
+  </body>
+</html>

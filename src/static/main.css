@@ -1,0 +1,39 @@
+.affix-top {
+  background-color: #BBFBFF;
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.affix-bottom {
+  background-color: #BBFBFF;
+  border-radius: 5px;
+  padding: 15px; 
+  width: 250px;
+  margin-top: 20px;
+}
+
+.affix {
+  background-color: #BBFBFF;
+  border-radius: 5px;
+  padding: 15px; 
+  width: 250px;
+  margin-top: 20px;
+}
+
+#header {
+  background-color: #BBC5FF;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0px 7px 6px -5px #ccc;
+  border-bottom: 1px solid grey;
+}
+
+.menu-li {
+  list-style-type: none;
+}
+
+.menu-li a {
+  color: #222222;
+}
