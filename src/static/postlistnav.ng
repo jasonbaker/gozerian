@@ -1,0 +1,4 @@
+<ngblog-list>
+  <ngblog-link post-id="hello">The Quick Brown Fox Jumped Over the Lazy Dog</ngblog-link>
+  <ngblog-link post-id="foo">Foo</ngblog-link>
+</ngblog-list>
